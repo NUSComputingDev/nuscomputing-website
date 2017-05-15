@@ -1,0 +1,12 @@
+<footer class="site-footer">
+	<p class="text">
+		&copy; {{ now.Format "2006" }} - {{ .Site.Params.copyright | markdownify }}
+		<ul>{{ partial "icons.html" . }}</ul>
+	</p>
+</footer>
+
+<!-- jQuery and Materialize JS -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
++<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+{{ template "_internal/google_analytics.html" . }}
