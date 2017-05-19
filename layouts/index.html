@@ -1,0 +1,27 @@
+	{{ partial "head.html" . }}
+	<body>
+		{{ partial "nav.html" . }}
+
+		<div class="content">
+			<div class="home">
+
+				<img src="{{ .Site.BaseURL }}/img/{{ .Site.Params.headerImage }}" style="width:100%;">
+
+				<div class="posts"><div class="post-teaser">
+					<span style="width:45%;float:left;">
+						{{ .Site.Params.description }}
+					</span>
+					<span style="width:45%;float:right;">
+						<img src="{{ .Site.BaseURL }}/img/profile-home.jpg">
+					</span>
+				</div></div>
+
+				{{ partial "post-list.html" . }}
+				{{ partial "pagination.html" . }}
+
+				{{ partial "footer.html" . }}
+
+			</div>
+		</div>
+	</body>
+</html>

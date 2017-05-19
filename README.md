@@ -20,7 +20,7 @@ Don't fret, however! There is an easy way to do so, using Hugo's built-in server
 You may want to run Hugo's server with the following flags, like so:
 
 ``` bash
-$ hugo server -wDd dev
+$ hugo server -w -t hugo-type-theme
 ```
 
 ### Testing

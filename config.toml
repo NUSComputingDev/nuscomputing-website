@@ -1,4 +1,55 @@
 baseURL = "http://nuscomputing.com/"
 languageCode = "en-us"
 title = "NUS Students' Computing Club"
-theme = "nuscomputing"
+theme = "hugo-type-theme"
+# Enable comments by entering your Disqus shortname
+# disqusShortname = ""
+# Add your tracking code to enable Google Analytics
+googleAnalytics = ""
+# Posts per page
+paginate = 10
+
+
+[params]
+	author = "Computing Club"
+	description = "We are the official student club of NUS School of Computing. We plan events for the undergraduate student body and ensure that students' welfare is taken care of. We organise fun social activities, games, sports and camps to complement the rigourous coursework that students go through daily."
+	# The keywords will be added as a meta tag. Delimit them with a comma.
+	keywords = "nus, students, computing, undergraduate, computer, information, systems, security, analytics"
+	# Either show custom avatar on the top
+	# left by adding the filename in below
+	avatar = "img/logo.png"
+	# or use Gravatar by adding your email address to generate a unique avatar
+	# gravatar = "your@email.com"
+
+	# headerText = ""
+	# To add a header background to the main site, save your image under static/img/.
+	# If now image path is provided, a orange background will be shown instead.
+	headerImage = "cover-home.jpg"
+	copyright = "NUS Students' Computing Club<br>Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)"
+
+
+	[params.social]
+		# Insert your account name and the icon will be shown in the right menu
+		rss = true
+		homepage = true
+		email = "connect@nuscomputing.com"
+		behance = ""
+		bitbucket = ""
+		dribbble = ""
+		facebook = "NUSComputing"
+		flickr = ""
+		github = "NUSComputingDev"
+		googleplus = ""
+		instagram = "NUSComputingClub"
+		linkedin = "company/NUSComputing"
+		pinterest = ""
+		reddit = ""
+		soundcloud = ""
+		stackexchange = ""
+		steam = ""
+		tumblr = ""
+		twitter = "NUSCompClub"
+		wordpress = ""
+		youtube = "channel/UCVd-qsSFF328UUqcNxudy0w"
+		gitlab = ""
+		trello = ""
