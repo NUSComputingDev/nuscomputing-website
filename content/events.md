@@ -2,10 +2,11 @@
 categories = []
 date = "2017-05-21T15:59:50+08:00"
 draft = false
-featureimage = "img/cover-about.jpg"
+featureimage = ""
 menu = "nav"
 tags = []
 title = "Events"
+type = "event"
 
 +++
 

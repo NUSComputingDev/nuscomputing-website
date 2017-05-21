@@ -1,0 +1,16 @@
+{{ define "main" -}}
+
+	<article>
+		<header>
+			<h1 class="title">{{ .Title }}</h1>
+			{{ partial "post-meta" . }}
+		</header>
+
+	<section class="post-content">
+		{{ .Content }}
+
+		{{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
+			{{ template "_internal/disqus.html" . }}
+		{{ end }}
+	</section>
+{{- end }}
