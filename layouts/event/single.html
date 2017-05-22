@@ -5,9 +5,13 @@
 			<h1 class="title">{{ .Title }}</h1>
 		</header>
 
+	<img src="{{ .Site.BaseURL }}/img/{{ .Params.image }}" style="width:50%;">
+
 	<section class="post-content">
 		{{ .Content }}
 
 	</section>
+
+	<a class="button" href="{{ .Params.externalLink }}">External Link</a>
 
 {{- end }}

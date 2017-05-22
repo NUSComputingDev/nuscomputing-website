@@ -2,6 +2,7 @@
 	{{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Type" "event") }}
 	{{ range $paginator.Pages -}}
 	<div class="post-teaser">
+		<img src="{{ .Site.BaseURL }}/img/{{ .Params.image }}" >
 		<header>
 		    <h1>
 		    <a class="post-link" href="{{ .Permalink }}">
@@ -11,7 +12,7 @@
 		    {{ partial "post-meta" . }}
 		</header>
 
-		<div class="excerpt">
+		<!-- <div class="excerpt">
 			{{ if isset .Params "description" | and (ne .Params.description "") -}}
 				{{ .Description | markdownify }}
 			{{- else -}}
@@ -22,7 +23,7 @@
 			<a class="button" href="{{ .Permalink }}">
 				{{ .Site.Data.l10n.continueReading }}
 			</a>
-		</div>
+		</div> -->
 	</div>
 	{{- end }}
 </div>
