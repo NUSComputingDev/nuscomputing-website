@@ -2,7 +2,7 @@
 categories = []
 date = "2017-05-22T20:00:04+08:00"
 draft = false
-image = "welfare_night.jpg"
+featureimage = "welfare_night.jpg"
 menu = ""
 tags = []
 title = "Welfare Night 2017"
