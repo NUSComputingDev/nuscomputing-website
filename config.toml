@@ -1,55 +1,59 @@
-baseURL = "http://nuscomputing.com/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "NUS Students' Computing Club"
-theme = "hugo-type-theme"
-# Enable comments by entering your Disqus shortname
-# disqusShortname = ""
-# Add your tracking code to enable Google Analytics
-googleAnalytics = ""
-# Posts per page
-paginate = 10
+title = "NUS Computing"
+Theme = "hugo-pacman-theme"
+pygmentsStyle = "default"
+pygmentsUseClasses = true
+RSSUri = "feed.xml"
 
+[Author]
+  Name = "coderzh"
 
-[params]
-	author = "Computing Club"
-	description = "We are the official student club of NUS School of Computing. We plan events for the undergraduate student body and ensure that students' welfare is taken care of. We organise fun social activities, games, sports and camps to complement the rigourous coursework that students go through daily."
-	# The keywords will be added as a meta tag. Delimit them with a comma.
-	keywords = "nus, students, computing, undergraduate, computer, information, systems, security, analytics"
-	# Either show custom avatar on the top
-	# left by adding the filename in below
-	avatar = "img/logo.png"
-	# or use Gravatar by adding your email address to generate a unique avatar
-	# gravatar = "your@email.com"
+[Params]
+  AuthorHomepage = "http://blog.coderzh.com"
+  BottomIntroduce = "Introduce1 <br/> Introduce2"
+  Description = ""
+  Subtitle = "Website for SoC Students"
+  Twitter = "coderzh"
+  GitHub = "coderzh"
+  Facebook = "coderzh"
+  LinkIn = "coderzh"
+  Imglogo = "logo.png"
+  AuthorImg = "img/author.jpg"
+  DateFormat = "2006/01/02/"
+  MonthFormat = "2006/01"
+  FancyBox = true
+  # DuoShuoShortName = "coderzh"
+  DisqusShortName = "coderzh"
+  GoogleAnalyticsID = "UA-10147768-2"
+  headerImage = "cover-home.jpg"
 
-	# headerText = ""
-	# To add a header background to the main site, save your image under static/img/.
-	# If now image path is provided, a orange background will be shown instead.
-	headerImage = "cover-home.jpg"
-	copyright = "NUS Students' Computing Club<br>Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)"
+  [Params.Strings]
+    Search = "Search"
+    PageNotFound = "The page you visit does not exist"
+    ShowSideBar = "Show sidebar"
+    HideSideBar = "Hide sidebar"
+    Categories = "Categories"
+    Archive = "Archive"
+    Tags = "Tags"
+    TagCloud = "Tag Cloud"
+    Rss = "RSS Subscription"
+    TableOfContents = "Table of Contents"
 
-
-	[params.social]
-		# Insert your account name and the icon will be shown in the right menu
-		rss = true
-		homepage = true
-		email = "connect@nuscomputing.com"
-		behance = ""
-		bitbucket = ""
-		dribbble = ""
-		facebook = "NUSComputing"
-		flickr = ""
-		github = "NUSComputingDev"
-		googleplus = ""
-		instagram = "NUSComputingClub"
-		linkedin = "company/NUSComputing"
-		pinterest = ""
-		reddit = ""
-		soundcloud = ""
-		stackexchange = ""
-		steam = ""
-		tumblr = ""
-		twitter = "NUSCompClub"
-		wordpress = ""
-		youtube = "channel/UCVd-qsSFF328UUqcNxudy0w"
-		gitlab = ""
-		trello = ""
+[Menu]
+  [[Menu.Main]]
+    Name = "Home"
+    URL = "/"
+    Weight = 1
+  [[Menu.Main]]
+    Name = "About"
+    URL = "/about"
+    Weight = 2
+  [[Menu.Main]]
+    Name = "Events"
+    URL = "/events"
+    Weight = 3
+  [[Menu.Main]]
+    Name = "Connect"
+    URL = "/connect"
+    Weight = 4

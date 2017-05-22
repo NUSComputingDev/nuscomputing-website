@@ -1,27 +1,33 @@
-	{{ partial "head.html" . }}
-	<body>
-		{{ partial "nav.html" . }}
+{{ partial "head.html" . }}
+<body>
+  <header>
+    {{ partial "header.html" . }}
+  </header>
 
-		<div class="content">
-			<div class="home">
+  <img src="{{ .Site.BaseURL }}/img/{{ .Site.Params.headerImage }}" style="width:75%; height: 75%" align="left">
+  {{ partial "sidebar.html" . }}
 
-				<img src="{{ .Site.BaseURL }}/img/{{ .Site.Params.headerImage }}" style="width:100%;">
+  <div id="container">
+    <div id="main">
 
-				<div class="posts"><div class="post-teaser">
-					<span style="width:45%;float:left;">
-						{{ .Site.Params.description }}
-					</span>
-					<span style="width:45%;float:right;">
-						<img src="{{ .Site.BaseURL }}/img/profile-home.jpg">
-					</span>
-				</div></div>
-
-				{{ partial "post-list.html" . }}
-				{{ partial "pagination.html" . }}
-
-				{{ partial "footer.html" . }}
-
-			</div>
-		</div>
-	</body>
+        <div class="posts"><div class="post-teaser">
+          <span style="width:45%;float:left;">
+            {{ .Site.Params.description }}
+          </span>
+          <span style="width:45%;float:right;">
+            <img src="{{ .Site.BaseURL }}/img/profile-home.jpg">
+          </span>
+        </div></div>
+      {{ range $index,$data := first 10 (where .Data.Pages "Type" "post") }}
+      {{ partial "article.html" $data }}
+      {{ end }}
+      <nav id="page-nav" class="clearfix">
+        <a class="page-number" href="{{ .Site.BaseURL }}post/">More...</a>
+      </nav>
+    </div>
+    
+  </div>
+  <footer>{{ partial "footer.html" . }}</footer>
+  {{ partial "after_footer.html" .}}
+</body>
 </html>

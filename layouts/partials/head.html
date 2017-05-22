@@ -1,55 +1,27 @@
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<!DOCTYPE HTML>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}zh-CN{{ end }}">
 <head>
-    <title>{{ .Title}}{{ if not .IsHome }}&middot; {{ .Site.Title }}{{ end }}</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-    {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-    {{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
-    {{ .Hugo.Generator }}
-
-    {{ "<!-- CSS -->" | safeHTML }}
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
-
-    {{ "<!--Favicon-->" | safeHTML }}
-    <!-- <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon"> -->
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ .Site.BaseURL }}/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ .Site.BaseURL }}/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ .Site.BaseURL }}/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ .Site.BaseURL }}/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ .Site.BaseURL }}/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ .Site.BaseURL }}/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ .Site.BaseURL }}/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ .Site.BaseURL }}/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="{{ .Site.BaseURL }}/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ .Site.BaseURL }}/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
-    {{ "<!-- RSS -->" | safeHTML }}
-    {{ if .RSSLink -}}
-        <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-        <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-    {{- end }}
-
-    {{ "<!-- Font Awesome -->" | safeHTML }}
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-    {{ "<!-- Google Fonts -->" | safeHTML }}
-    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
-
-  
-  <!-- Materialize -->
-  <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-  
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+  <meta charset="UTF-8">
+  <title>{{ if ne .URL "/" }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+  {{ if .Keywords }}<meta name="keywords" content="{{ range .Keywords }}{{ . }},{{ end }}">{{ else if eq .URL "/" }}<meta name="keywords" content="{{ .Site.Params.Keywords }}">{{ end }}
+  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Title }}{{ end }}">
+  {{ with .Site.Author.Name }}<meta name="author" content="{{ . }}">{{ end }}
+  <meta itemprop="name" content="{{ if ne .URL "/" }}{{ .Title }} - {{ end }}{{ .Site.Title }}">
+  <meta itemprop="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Title }}{{ end }}">
+  <meta itemprop="image" content="{{ .Site.BaseURL }}img/author.jpg">
+  {{ if .Site.Params.Twitter }}<meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@{{ .Site.Params.Twitter }}" />
+  <meta name="twitter:title" content="{{ if ne .URL "/" }}{{ .Title }} - {{ end }}{{ .Site.Title }}" />{{ end }}
+  {{ with .Description }}<meta name="twitter:description" content="{{ . }}" />{{ else }}
+  <meta name="twitter:description" content="{{ .Site.Params.Description }}">{{ end }}
+  {{ if .RSSLink }}<link rel="alternate" href="{{ .Site.BaseURL }}feed.xml" title="{{ .Site.Title }}" type="application/rss+xml"/>{{ end }}
+  <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico"/>
+  <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}apple-touch-icon.png" />
+  <link rel="apple-touch-icon-precomposed" href="{{ .Site.BaseURL }}apple-touch-icon.png" />
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}highlight/styles/github.css">
+  <script src="{{ .Site.BaseURL }}highlight/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}font/hack/css/hack.min.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 </head>
