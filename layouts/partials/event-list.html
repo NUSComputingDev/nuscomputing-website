@@ -1,29 +1,31 @@
 <div class="posts">
 	{{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Type" "event") }}
 	{{ range $paginator.Pages -}}
-	<div class="post-teaser">
-		<img src="{{ .Site.BaseURL }}/img/{{ .Params.image }}" >
-		<header>
-		    <h1>
-		    <a class="post-link" href="{{ .Permalink }}">
-		        {{ .Title }}
-		    </a>
-		    </h1>
-		    {{ partial "post-meta" . }}
-		</header>
 
-		<!-- <div class="excerpt">
-			{{ if isset .Params "description" | and (ne .Params.description "") -}}
-				{{ .Description | markdownify }}
-			{{- else -}}
-				{{ .Summary }}
-			{{- end }}
-			
-			<br>
-			<a class="button" href="{{ .Permalink }}">
-				{{ .Site.Data.l10n.continueReading }}
-			</a>
-		</div> -->
-	</div>
+	<a class="post-link" href="{{ .Permalink }}">
+		<div class="post-teaser center-align">
+			<img src="{{ .Site.BaseURL }}/img/{{ .Params.featureimage }}" style="width: 40%;">
+			<header>
+			    <h5>
+			    
+			        {{ .Title }}
+			    
+			    </h5>
+			</header>
+
+			<!-- <div class="excerpt">
+				{{ if isset .Params "description" | and (ne .Params.description "") -}}
+					{{ .Description | markdownify }}
+				{{- else -}}
+					{{ .Summary }}
+				{{- end }}
+				
+				<br>
+				<a class="button" href="{{ .Permalink }}">
+					{{ .Site.Data.l10n.continueReading }}
+				</a>
+			</div> -->
+		</div>
+	</a>
 	{{- end }}
 </div>
