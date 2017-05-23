@@ -5,7 +5,9 @@
 			<h1 class="title">{{ .Title }}</h1>
 		</header>
 
-	<img src="{{ .Site.BaseURL }}/img/{{ .Params.featureimage }}" style="width:50%;">
+		<div class="center-align">
+			<img src="{{ .Site.BaseURL }}/img/{{ .Params.featureimage }}" style="width:50%;">
+		</div>
 
 	<section class="post-content">
 		{{ .Content }}
