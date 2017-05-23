@@ -1,16 +1,23 @@
+<script type="text/javascript">
+
+	$(document).ready(function(){
+	// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+	$('.modal').modal({
+		dismissible:false
+	});
+	});
+</script>
+
 <div class="posts">
 	{{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Type" "event") }}
 	{{ range $paginator.Pages -}}
 
-	<a class="post-link" href="{{ .Permalink }}">
+	<!-- <a class="post-link" href="{{ .Permalink }}"> -->
+	<a class="post-link" href="#modal1">
 		<div class="post-teaser center-align">
 			<img src="{{ .Site.BaseURL }}/img/{{ .Params.featureimage }}" style="width: 40%;">
 			<header>
-			    <h5>
-			    
-			        {{ .Title }}
-			    
-			    </h5>
+			    <h5>{{ .Title }}</h5>
 			</header>
 
 			<!-- <div class="excerpt">
@@ -28,4 +35,16 @@
 		</div>
 	</a>
 	{{- end }}
+</div>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+	<div class="modal-content">
+		<h4>Modal Header</h4>
+		<p>A bunch of text</p>
+	</div>
+	<div class="modal-footer">
+		
+	<div class="modal-action modal-close btn-flat">Close</div>
+	</div>
 </div>
