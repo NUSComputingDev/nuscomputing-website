@@ -38,8 +38,3 @@ a.button:hover {
 
 /* see #6 */
 .highlighttable td,th{padding:0;border:0;}td.code{width:95%;}
-
-.event-img {
-  width: 100%; 
-  padding-top: 12px;
-}
