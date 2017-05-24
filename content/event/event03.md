@@ -8,6 +8,7 @@ tags = []
 title = "Computing Day 2016"
 type = "event"
 externalLink = "http://computingday.nuscomputing.com/"
+modal = "modal03"
 
 +++
 
