@@ -5,7 +5,7 @@
 	<!-- <a class="post-link" href="{{ .Permalink }}"> -->
 	<a class="post-link" href="#{{ .Params.modal }}">
 		<div class="post-teaser center-align">
-			<img src="{{ .Site.BaseURL }}/img/{{ .Params.featureimage }}" style="width: 40%;">
+			<img src="{{ .Site.BaseURL }}/img/{{ .Params.image }}" style="width: 40%;">
 			<header>
 			    <h5>{{ .Title }}</h5>
 			</header>
@@ -13,19 +13,27 @@
 	</a>
 
 	<!-- Modal Structure -->
-	<div id="{{ .Params.modal }}" class="modal">
-		<div class="row">
+	<div id="{{ .Params.modal }}" class="modal modal-fixed-footer">
+		<!-- Desktop and Tablet Layout -->
+		<div class="hide-on-small-and-down modal-content row">
 			<div class="col s8 m8 l8">
-				<div class="modal-content">
-					<h5>{{ .Title }}</h5>
-					<p>{{ .Content }}</p>
-					<a class="button" href="{{ .Params.externalLink }}">External Link</a>
-				</div>
+				<h5>{{ .Title }}</h5>
+				<p>{{ .Content }}</p>
+				<a class="button" href="{{ .Params.externalLink }}">External Link</a>
 			</div>
-			<div class="col s4 m4 l4 center-align">
-				<img class="event-img" src="{{ .Site.BaseURL }}/img/{{ .Params.featureimage }}">
+			<div class="col s4 m4 l4">
+				<img src="{{ .Site.BaseURL }}/img/{{ .Params.image }}">
 			</div>
 		</div>
+
+		<!-- Mobile Layout -->
+		<div class="hide-on-med-and-up modal-content">
+			<h5>{{ .Title }}</h5>
+			<img src="{{ .Site.BaseURL }}/img/{{ .Params.image }}">
+			<p>{{ .Content }}</p>
+			<a class="button" href="{{ .Params.externalLink }}">External Link</a>	
+		</div>
+
 		<div class="modal-footer">
 			<div class="modal-action modal-close btn-flat">Close</div>
 		</div>
