@@ -2,7 +2,7 @@
 categories = []
 date = "2017-05-22T22:49:46+08:00"
 draft = false
-featureimage = "computing_day.jpg"
+image = "computing_day.jpg"
 menu = ""
 tags = []
 title = "Computing Day 2016"

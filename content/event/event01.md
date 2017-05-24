@@ -2,7 +2,7 @@
 categories = []
 date = "2017-05-21T17:31:15+08:00"
 draft = false
-featureimage = "welfare_pack.jpg"
+image = "welfare_pack.jpg"
 menu = ""
 tags = []
 title = "Welfare Pack Giveaway 16/17 Sem 2"
