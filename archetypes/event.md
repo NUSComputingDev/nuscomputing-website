@@ -4,7 +4,7 @@ date = ""
 image = ""
 tags = []
 title = ""
-type = ""
+type = "event"
 externalLink = ""
 modal = ""
 
