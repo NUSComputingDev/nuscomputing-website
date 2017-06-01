@@ -4,7 +4,7 @@
 		{{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Type" "event") }}
 		{{ range $paginator.Pages -}}
 			<!-- <div class="col m3">{{ .Render "list-segment" }}</div> -->
-			<div class="medium-3 columns" data-equalizer-watch>{{ .Render "list-segment" }}</div>
+			<div class="col m3" data-equalizer-watch>{{ .Render "list-segment" }}</div>
 
 			{{ .Render "modal" }}
 		{{ end }}
