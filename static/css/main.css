@@ -47,5 +47,6 @@ a.button:hover {
 }
 
 .event-container {
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
