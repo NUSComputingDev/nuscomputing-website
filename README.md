@@ -36,3 +36,18 @@ $ hugo
 ```
 
 The result will be placed in the `public/` directory.
+
+### Adding New Event to Event Page
+
+1. Open terminal in root folder, create new event type markdown file by typing:
+``` bash
+$ hugo new event/<event name>.md
+```
+2. Fill in parameters in front matter: 
+> * externalLink (link to event page)
+> * image (image should be in ./static/img/event)
+> * modal (modal id)
+> * title
+3. Add description as content below front matter.
+4. That's it :D
+
