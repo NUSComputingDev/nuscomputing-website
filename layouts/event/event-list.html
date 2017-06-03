@@ -1,9 +1,9 @@
 <div class="event-container">
 	<div class="posts">
-		<div class="row" data-equalizer data-equalize-by-row="true">
+		<div class="row" data-equalizer="event-row" data-equalize-by-row="true">
 		{{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Type" "event") }}
 		{{ range $paginator.Pages -}}
-			<div class="col m3" data-equalizer-watch>{{ .Render "list-segment" }}</div>
+			<div class="col m3">{{ .Render "list-segment" }}</div>
 
 			{{ .Render "modal" }}
 		{{ end }}
