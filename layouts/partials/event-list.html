@@ -3,8 +3,7 @@
 		<div class="row">
 		{{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Type" "event") }}
 		{{ range $paginator.Pages -}}
-			<div class="col m3">{{ .Render "list-segment" }}</div>
-
+			<div id = "{{ . Title }}" class="section scrollspy">{{ .Render "list-segment" }}</div>
 			{{ .Render "modal" }}
 		{{ end }}
 		</div>
