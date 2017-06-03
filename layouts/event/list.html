@@ -1,0 +1,15 @@
+{{ define "main" -}}
+
+	<article>
+		<header>
+			<h1 class="title">{{ .Title }}</h1>
+		</header>
+
+	<section class="post-content">
+		{{ .Content }}
+	</section>
+	</article>
+
+	{{ template "event/event-list.html" . }}
+	{{ partial "pagination.html" . }}
+{{- end }}
