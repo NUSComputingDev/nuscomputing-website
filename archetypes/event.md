@@ -1,11 +1,11 @@
 +++
 categories = []
+tags = []
 date = ""
 image = ""
-tags = []
 title = ""
 type = "event"
-externalLink = ""
+externalLink = "fb.com/nuscomputing"
 modal = ""
 
 +++

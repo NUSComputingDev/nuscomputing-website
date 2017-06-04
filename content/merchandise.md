@@ -1,7 +1,7 @@
 +++
 date = "2017-05-14"
 title = "Merchandise"
-featureimage = "img/cover-about.jpg"
+featureimage = ""
 menu = "nav"
 disableComments = true
 +++

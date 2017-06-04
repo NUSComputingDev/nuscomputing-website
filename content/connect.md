@@ -1,7 +1,7 @@
 +++
 date = "2015-07-23"
 title = "Connect"
-featureimage = "img/cover-about.jpg"
+featureimage = ""
 menu = "nav"
 disableComments = true
 +++
