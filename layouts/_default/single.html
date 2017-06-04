@@ -1,0 +1,39 @@
+{{ define "main" -}}
+    {{ if and (isset .Params "featureimage") (not (eq .Params.featureimage "")) -}}
+    <article class="feature-image">
+        <header style="background-image: url('{{ .Site.BaseURL }}{{ .Params.featureimage }}')">
+            <h1 class="title">{{ .Title }}</h1>
+        </header>
+    {{- else -}}
+    <article>
+        <header>
+            <h1 class="title">{{ .Title }}</h1>
+            {{ partial "post-meta" . }}
+        </header>
+    {{- end }}
+
+    <div class="row">
+    <section class="post-content">
+        <div class="col s12 m9 l9">
+        {{ .Content }}
+
+        {{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
+            {{ template "_internal/disqus.html" . }}
+        {{ end }}
+        </div>
+        <div class="col hide-on-small-only m3 l3">
+            <ul class="section table-of-contents">
+            {{ range $index, $element := .Params.sideMenuIds }}
+                <li><a href="#{{ $element }}">{{ index $.Params.sideMenuNames $index }}</a></li>
+            {{ end }}
+            </ul>
+        </div>
+    </section>
+    </div>
+
+    <script>
+    $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+    });
+    </script>
+{{- end }}
