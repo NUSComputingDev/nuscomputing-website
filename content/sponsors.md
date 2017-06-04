@@ -1,7 +1,7 @@
 +++
 date = "2017-05-14"
 title = "Sponsors"
-featureimage = "img/cover-about.jpg"
+featureimage = ""
 menu = "nav"
 disableComments = true
 +++
