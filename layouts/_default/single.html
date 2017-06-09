@@ -23,7 +23,7 @@
         {{ end }}
         </div>
         <div class="col hide-on-small-only m3 l3">
-            <div id="sidenav">
+            <div id="sideMenu">
                 <ul class="section table-of-contents">
                 {{ range $index, $element := .Params.sideMenuIds }}
                     <li><a href="#{{ $element }}">{{ index $.Params.sideMenuNames $index }}</a></li>
@@ -40,23 +40,22 @@
         });
 
         $(function() {
-
-            var $sidenav   = $("#sidenav"), 
-                $window    = $(window),
-                offset     = $sidenav.offset();
+            var $sideMenu = $("#sideMenu"), 
+                $window = $(window),
+                offset = $sideMenu.offset();
 
             $window.scroll(function() {
                 if ($window.scrollTop() > offset.top) {
-                    $sidenav.stop().animate({
+                    $sideMenu.stop().animate({
                         marginTop: $window.scrollTop() - offset.top
                     });
                 } else {
-                    $sidenav.stop().animate({
+                    $sideMenu.stop().animate({
                         marginTop: 0
                     });
                 }
-            });
-            
+            });           
         });
+
     </script>
 {{- end }}
