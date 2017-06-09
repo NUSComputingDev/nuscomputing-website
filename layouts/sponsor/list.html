@@ -13,7 +13,7 @@
 	<div class="container">
 		<div class="posts">
 			<div class="row" data-equalizer="sponsor-row" data-equalize-by-row="true">
-			{{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Type" "sponsor") }}
+			{{ $paginator := .Paginate (where .Site.RegularPages.ByDate "Type" "sponsor") }}
 			{{ range $paginator.Pages -}}
 				<div class="col m3">{{ .Render "list-segment" }}</div>
 
