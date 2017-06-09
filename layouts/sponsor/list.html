@@ -1,0 +1,31 @@
+{{ define "main" -}}
+
+	<article>
+		<header>
+			<h1 class="title">{{ .Title }}</h1>
+		</header>
+
+	<section class="post-content">
+		{{ .Content }}
+	</section>
+	</article>
+
+	<div class="container">
+		<div class="posts">
+			<div class="row" data-equalizer="sponsor-row" data-equalize-by-row="true">
+			{{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Type" "sponsor") }}
+			{{ range $paginator.Pages -}}
+				<div class="col m3">{{ .Render "list-segment" }}</div>
+
+			{{ end }}
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).foundation();
+
+	</script>
+	
+	{{ partial "pagination.html" . }}
+{{- end }}
