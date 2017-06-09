@@ -8,6 +8,6 @@ title = "Sponsors"
 
 +++
 
-### Sponsors
+We would like to thank our sponsors for supporting our events and believing in us throughout the years. We hope to continue this beneficial working relationship with our sponsors and hope to forge more relationships with organisations that may want to support us as well.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur non neque ut condimentum. Sed euismod nisi vel eros congue, vitae efficitur elit efficitur. Proin tincidunt massa sit amet libero tempus venenatis. Nullam sed turpis volutpat, maximus odio nec, congue enim. Maecenas eget lorem eget nulla posuere porttitor in ac nulla. Nam ac iaculis metus. Proin scelerisque ligula dui. Nam metus turpis, maximus eget sollicitudin eu, semper eu odio. Maecenas vitae lobortis libero. Nunc et lectus euismod, gravida dolor vel, finibus augue. Donec non porta mauris.
+Please contact us at connect@nuscomputing.com if you would like to be a supporter for our future events!
