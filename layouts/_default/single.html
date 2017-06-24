@@ -11,8 +11,9 @@
             {{ partial "post-meta" . }}
         </header>
     {{- end }}
+    </article>
 
-    <div class="row">
+    <div class="row container">
     <section class="post-content">
         <div class="col s12 m9 l9">
         {{ .Content }}
@@ -22,18 +23,39 @@
         {{ end }}
         </div>
         <div class="col hide-on-small-only m3 l3">
-            <ul class="section table-of-contents">
-            {{ range $index, $element := .Params.sideMenuIds }}
-                <li><a href="#{{ $element }}">{{ index $.Params.sideMenuNames $index }}</a></li>
-            {{ end }}
-            </ul>
+            <div id="sideMenu">
+                <ul class="section table-of-contents">
+                {{ range $index, $element := .Params.sideMenuIds }}
+                    <li><a href="#{{ $element }}">{{ index $.Params.sideMenuNames $index }}</a></li>
+                {{ end }}
+                </ul>
+            </div>
         </div>
     </section>
     </div>
 
     <script>
-    $(document).ready(function(){
-        $('.scrollspy').scrollSpy();
-    });
+        $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
+        });
+
+        $(function() {
+            var $sideMenu = $("#sideMenu"), 
+                $window = $(window),
+                offset = $sideMenu.offset();
+
+            $window.scroll(function() {
+                if ($window.scrollTop() > offset.top) {
+                    $sideMenu.stop().animate({
+                        marginTop: $window.scrollTop() - offset.top
+                    });
+                } else {
+                    $sideMenu.stop().animate({
+                        marginTop: 0
+                    });
+                }
+            });           
+        });
+
     </script>
 {{- end }}
