@@ -55,3 +55,8 @@ a.button:hover {
   padding-left: 10%;
   padding-right: 10%;
 }
+
+nav {
+  background-color: transparent;
+  box-shadow: none;
+}
