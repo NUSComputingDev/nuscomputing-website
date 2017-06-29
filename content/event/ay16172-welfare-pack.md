@@ -1,11 +1,11 @@
 +++
 categories = []
 tags = []
-date = "2017-04-03T11:59:59+08:00"
+date = "2017-04-03"
 image = "ay16172-welfare-pack.jpg"
 title = "Welfare Pack Giveaway AY16/17 Sem 2"
 type = "event"
-externalLink = "https://www.facebook.com/nuscomputing/photos/a.384963248238565.83597.192939370774288/1234065829994965/?type=3"
+externalLink = "https://www.facebook.com/nuscomputing/photos/1234065829994965/"
 modal = "ay16172-welfare-pack"
 
 +++

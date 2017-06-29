@@ -1,11 +1,11 @@
 +++
 categories = []
 tags = []
-date = "2016-10-31T11:59:59+08:00"
+date = "2016-10-31"
 image = "ay16171-halloween.jpg"
 title = "Halloween Celebration 2016"
 type = "event"
-externalLink = "fb.com/nuscomputing"
+externalLink = "https://www.facebook.com/nuscomputing/"
 modal = "ay16171-halloween"
 
 +++
