@@ -1,9 +1,9 @@
 +++
-date = "2017-06-09T17:01:33+08:00"
-externalLink = "http://www.gumtree.sg/"
-image = "gumtree.png"
-title = ""
 type = "sponsor"
+date = "2017-06-29"
+title = ""
+image = "gumtree.png"
+externalLink = "https://www.gumtree.sg/"
 
 +++
 

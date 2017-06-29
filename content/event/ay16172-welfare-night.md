@@ -1,11 +1,11 @@
 +++
 categories = []
 tags = []
-date = "2017-02-03T17:59:59+08:00"
+date = "2017-02-03"
 image = "ay16172-welfare-night.jpg"
 title = "Welfare Night 2017"
 type = "event"
-externalLink = "https://www.facebook.com/nuscomputing/photos/a.384963248238565.83597.192939370774288/1172174552850760/?type=3&theater"
+externalLink = "https://www.facebook.com/nuscomputing/photos/1172174552850760/"
 modal = "ay16172-welfare-night"
 
 +++

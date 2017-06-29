@@ -1,11 +1,11 @@
 +++
 categories = []
 tags = []
-date = ""
+date = "2018-01-01"
 image = ""
 title = ""
 type = "event"
-externalLink = "fb.com/nuscomputing"
+externalLink = "https://www.facebook.com/nuscomputing/"
 modal = ""
 
 +++
