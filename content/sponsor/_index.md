@@ -1,7 +1,7 @@
 +++
 categories = []
 date = "2017-06-29"
-featureimage = ""
+featureimage = "img/sample_feature_img_3.png"
 menu = "nav"
 tags = []
 title = "Sponsors"
