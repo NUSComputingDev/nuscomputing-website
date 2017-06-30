@@ -1,14 +1,6 @@
 {{ define "main" -}}
 
-	<article>
-		<header>
-			<h1 class="title">{{ .Title }}</h1>
-		</header>
-
-	<section class="post-content">
-		{{ .Content }}
-	</section>
-	</article>
+	{{ partial "article.html" . }}
 
 	<div class="container">
 		<div class="posts">
@@ -23,7 +15,6 @@
 
 	<script type="text/javascript">
 		$(document).foundation();
-
 	</script>
 	
 	{{ partial "pagination.html" . }}
