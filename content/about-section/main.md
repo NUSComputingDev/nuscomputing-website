@@ -3,7 +3,7 @@ date = "2017-06-24T16:08:53+08:00"
 featureimage = ""
 sectionid = "main"
 title = "Computing Club"
-type = "about-section"
+type = "section"
 order = "0"
 +++
 

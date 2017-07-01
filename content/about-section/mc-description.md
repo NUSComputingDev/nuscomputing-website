@@ -3,7 +3,7 @@ date = "2017-06-24T16:10:49+08:00"
 featureimage = ""
 sectionid = "mc"
 title = "The Management Committee"
-type = "about-section"
+type = "section"
 order = "1"
 +++
 
