@@ -1,0 +1,5 @@
+<ul class="section table-of-contents">
+{{ range where (.Site.RegularPages.ByParam "order") "Section" .Params.sectionName}}
+    <li class="left-align"><a href="#{{ .Params.sectionid}}">{{ .Title}}</a></li>
+{{ end }}
+</ul>

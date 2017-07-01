@@ -16,19 +16,22 @@
     <div class="row container">
     <section class="post-content">
         <div class="col s12 m9 l9">
-        {{ .Content }}
 
-        {{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
-            {{ template "_internal/disqus.html" . }}
-        {{ end }}
+          {{ .Content }}
+
+          {{ if .Params.sectionName }}
+            {{ partial "sections.html" . }}
+          {{ end }}
+
+          {{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
+              {{ template "_internal/disqus.html" . }}
+          {{ end }}
         </div>
         <div class="col hide-on-small-only m3 l3">
             <div id="sideMenu">
-                <ul class="section table-of-contents">
-                {{ range $index, $element := .Params.sideMenuIds }}
-                    <li><a href="#{{ $element }}">{{ index $.Params.sideMenuNames $index }}</a></li>
-                {{ end }}
-                </ul>
+              {{ if .Params.sectionName }}
+                {{ partial "sections-sidenav.html" . }}
+              {{ end }}
             </div>
         </div>
     </section>

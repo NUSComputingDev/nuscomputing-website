@@ -1,0 +1,8 @@
+{{ range where (.Site.RegularPages.ByParam "order") "Section" .Params.sectionName}}
+
+  <div id="{{ .Params.sectionid}}" class="section scrollspy">
+    <h2>{{ .Title }}</h2>
+
+    {{ .Content }}
+  </div>
+{{ end }}
