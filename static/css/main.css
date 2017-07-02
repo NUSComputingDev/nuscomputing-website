@@ -60,3 +60,15 @@ nav {
   background-color: transparent;
   box-shadow: none;
 }
+
+.avatar {
+  width: 10%;
+}
+
+.nav-wrapper {
+  width: 100%;
+}
+
+.valign-wrapper {
+  height: 100%;
+}

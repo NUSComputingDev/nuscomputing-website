@@ -1,5 +1,7 @@
-<header class="site-header">
-	<div class="branding">
+<nav class="site-header">
+
+<div class="nav-wrapper">
+  	<div class="left branding valign-wrapper">
 		<a href="{{ .Site.BaseURL }}">
 		{{ with .Site.Params.gravatar -}}
 			<img class="avatar" src="https://www.gravatar.com/avatar/{{ . | md5 }}?s=100&d=identicon" alt=""/>
@@ -11,11 +13,33 @@
 			<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
 		</h1>
 	</div>
-	<nav class="site-nav">
-		<ul>
-	      	{{ range .Site.Menus.nav -}}
+
+		<div class="right">
+			<ul id="nav-mobile" class="site-nav hide-on-med-and-down">
+        {{ range .Site.Menus.nav -}}
 	        	<li><a href="{{ .URL }}"> {{ .Name }} </a></li>
 	      	{{- end }}
-	    </ul>
-	</nav>
-</header>
+      	</ul>
+
+
+		</div>
+
+		<div class="right valign-wrapper">
+      		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      	<ul class="side-nav right" id="mobile-demo">
+	        {{ range .Site.Menus.nav -}}
+	        	<li><a href="{{ .URL }}"> {{ .Name }} </a></li>
+	      	{{- end }}
+	      </ul>
+      	</div>
+
+</div>
+</nav>
+
+<script>
+	$( document ).ready(function(){
+		$(".button-collapse").sideNav({
+			edge: 'right'
+		});
+	});
+</script>
