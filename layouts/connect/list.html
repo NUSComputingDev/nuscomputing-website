@@ -1,0 +1,31 @@
+{{ define "main" -}}
+    {{ if and (isset .Params "featureimage") (not (eq .Params.featureimage "")) -}}
+    <article class="feature-image">
+        <header style="background-image: url('{{ .Site.BaseURL }}{{ .Params.featureimage }}')">
+            <h1 class="title">{{ .Title }}</h1>
+        </header>
+    {{- else -}}
+    <article>
+        <header>
+            <h1 class="title">{{ .Title }}</h1>
+            {{ partial "post-meta" . }}
+        </header>
+    {{- end }}
+    </article>
+
+    <div class="row container">
+    <section class="post-content">
+        <div class="col s12 m9 l9">
+            {{ .Content }}
+        </div>
+
+        <div class="row-container">
+            <!-- Insert map here -->
+        </div>
+
+        <div class="row-container">
+            {{ partial "form" . }}
+        </div>
+    </section>
+
+{{- end }}
