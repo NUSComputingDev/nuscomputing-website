@@ -25,7 +25,7 @@
     <div class="row">
       <div class="input-field col s12">
         <i class="material-icons prefix">message</i>
-        <select>
+        <select id="enquiry">
           <option value="" disabled selected>Select one</option>
           <optgroup label="Connect">
             <option value="0">General enquiry</option>
@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    <button class="btn waves-effect waves-light" type="submit" name="action" onclick="">
+    <button class="btn waves-effect waves-light" type="submit" name="action" onclick="connect();">
       Send
       <i class="material-icons right">send</i>
     </button>
@@ -69,4 +69,25 @@
   $(document).ready(function() {
     $('select').material_select();
   });
+
+  function connect() {
+    var data = {
+      'enquiry': $('#enquiry').val(),
+      'name': $('#name').val(),
+      'email': $('#email').val(),
+      'phone': $('#phone').val(),
+      'message': $('#message').val()
+    };
+
+    $.ajax({
+      url: '...',
+      method: 'POST',
+      contentType: 'application/json',
+      data: JSON.stringify(data)
+    }).done(function(data, textStatus, jqXHR) {
+      alert(textStatus);
+    }).fail(function(jqXHR, textStatus, errorThrown) {
+      alert(errorThrown);
+    });
+  }
 </script>
