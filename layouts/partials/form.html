@@ -1,5 +1,5 @@
 <div class="row">
-  <form class="col s12">
+  <form id="form" class="col s12">
 
     <div class="row">
       <div class="input-field col s12">
@@ -49,15 +49,24 @@
         <label>Enquiry type</label>
       </div>
     </div>
+
+    <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">subject</i>
+        <input id="subject" type="text" class="validate" data-length="30">
+        <label for="subject">Subject</label>
+      </div>
+    </div>
     
     <div class="row">
       <div class="input-field col s12">
-        <textarea id="message" class="materialize-textarea" data-length="500"></textarea>
+        <i class="material-icons prefix">message</i>
+        <textarea id="message" class="materialize-textarea" data-length="300"></textarea>
         <label for="message">Message</label>
       </div>
     </div>
 
-    <button class="btn waves-effect waves-light" type="submit" name="action" onclick="connect();">
+    <button id="connect" class="btn waves-effect waves-light" type="submit" name="action">
       Send
       <i class="material-icons right">send</i>
     </button>
@@ -70,24 +79,23 @@
     $('select').material_select();
   });
 
-  function connect() {
+  $('#form').submit(function(event) {
+    event.preventDefault();
+
     var data = {
       'enquiry': $('#enquiry').val(),
       'name': $('#name').val(),
       'email': $('#email').val(),
       'phone': $('#phone').val(),
+      'subject': $('#subject').val(),
       'message': $('#message').val()
     };
 
     $.ajax({
-      url: '...',
+      url: 'http://contact-jiayee.rhcloud.com/connect',
       method: 'POST',
       contentType: 'application/json',
       data: JSON.stringify(data)
-    }).done(function(data, textStatus, jqXHR) {
-      alert(textStatus);
-    }).fail(function(jqXHR, textStatus, errorThrown) {
-      alert(errorThrown);
     });
-  }
+  });
 </script>
