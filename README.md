@@ -1,7 +1,7 @@
 # NUSComputing.com Website
 > the new, lightweight NUSComputing.com
 
-## Guide
+## General Guide
 
 ### Requirements
 
@@ -37,17 +37,24 @@ $ hugo
 
 The result will be placed in the `public/` directory.
 
+## Development/Website Guides
+
 ### Adding New Event to Event Page
 
 1. Open terminal in root folder, create new event type markdown file by typing:
 ``` bash
 $ hugo new event/<event name>.md
 ```
-2. Fill in parameters in front matter: 
-> * externalLink (link to event page)
-> * image (image should be in ./static/img/event)
-> * modal (modal id)
-> * title
-3. Add description as content below front matter.
-4. That's it :D
+2. Open the Markdown file in your favourite editor.
+Fill in the file with the event details as follows:
+``` Markdown
++++
+externalLink = <link to event page>
+image = <filename of image (in ./static/img/event)>
+modal = <modal ID>
+title = <title>
++++
 
+<description of event>
+```
+3. Commit, push and make a Pull Request to the repository.
