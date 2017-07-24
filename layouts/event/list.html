@@ -4,7 +4,7 @@
 
     <div class="event-container">
         <div class="posts">
-            <div class="row" data-equalizer="event-row" data-equalize-by-row="true">
+            <div class="row">
             {{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Type" "event") 8 }}
             {{ range $paginator.Pages -}}
                 <div class="col s6 m3">{{ .Render "list-segment" }}</div>
@@ -16,9 +16,8 @@
     </div>
 
     <script type="text/javascript">
-        $(document).foundation();
 
-        $(document).ready(function(){
+        $(document).ready(function() {
             // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
             $('.modal').modal({
                 dismissible:false
