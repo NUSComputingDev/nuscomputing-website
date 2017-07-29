@@ -4,7 +4,7 @@
     <div class="row">
       <div class="input-field col s12">
         <i class="material-icons prefix">account_circle</i>
-        <input id="name" type="text" class="validate">
+        <input id="name" type="text" class="validate" name="name">
         <label for="name">Name</label>
       </div>
     </div>
@@ -12,12 +12,12 @@
     <div class="row">
       <div class="input-field col s6">
         <i class="material-icons prefix">email</i>
-        <input id="email" type="email" class="validate">
+        <input id="email" type="email" class="validate" name="email">
         <label for="email" data-error="Invalid email">Contact email</label>
       </div>
       <div class="input-field col s6">
         <i class="material-icons prefix">phone</i>
-        <input id="phone" type="tel" class="validate">
+        <input id="phone" type="tel" class="validate" name="phone">
         <label for="phone">Contact number</label>
       </div>
     </div>
@@ -25,7 +25,7 @@
     <div class="row">
       <div class="input-field col s12">
         <i class="material-icons prefix">message</i>
-        <select id="enquiry">
+        <select id="enquiry" name="enquiry">
           <option value="" disabled selected>Select one</option>
           <optgroup label="Connect">
             <option value="0">General enquiry</option>
@@ -53,7 +53,7 @@
     <div class="row">
       <div class="input-field col s12">
         <i class="material-icons prefix">subject</i>
-        <input id="subject" type="text" class="validate" data-length="30">
+        <input id="subject" type="text" class="validate" data-length="30" name="subject">
         <label for="subject">Subject</label>
       </div>
     </div>
@@ -61,7 +61,7 @@
     <div class="row">
       <div class="input-field col s12">
         <i class="material-icons prefix">message</i>
-        <textarea id="message" class="materialize-textarea" data-length="300"></textarea>
+        <textarea id="message" class="materialize-textarea" data-length="300" name="message"></textarea>
         <label for="message">Message</label>
       </div>
     </div>
@@ -81,11 +81,19 @@
 
   $('#form-connect').submit(function(event) {
     event.preventDefault();
+
+    let serializedArr = $('#form-connect').serializeArray();
+    let serializedObj = {};
+    for (let i = 0; i < serializedArr.length; i++) {
+      let field = serializedArr[i];
+      serializedObj[field.name] = field.value;
+    }
+
     $.ajax({
       url: 'http://contact-jiayee.rhcloud.com/connect',
       method: 'POST',
       contentType: 'application/json',
-      data: $('#form-connect').serialize()
+      data: JSON.stringify(serializedObj)
     });
   });
 </script>
