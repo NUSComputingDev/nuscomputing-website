@@ -1,0 +1,99 @@
+<div class="row">
+  <form id="form-connect" class="col s12">
+
+    <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">account_circle</i>
+        <input id="name" type="text" class="validate" name="name">
+        <label for="name">Name</label>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="input-field col s6">
+        <i class="material-icons prefix">email</i>
+        <input id="email" type="email" class="validate" name="email">
+        <label for="email" data-error="Invalid email">Contact email</label>
+      </div>
+      <div class="input-field col s6">
+        <i class="material-icons prefix">phone</i>
+        <input id="phone" type="tel" class="validate" name="phone">
+        <label for="phone">Contact number</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">message</i>
+        <select id="enquiry" name="enquiry">
+          <option value="" disabled selected>Select one</option>
+          <optgroup label="Connect">
+            <option value="0">General enquiry</option>
+            <option value="1">General feedback</option>
+          </optgroup>
+          <optgroup label="Partnership">
+            <option value="2">Collaboration and partnership</option>
+            <option value="3">Marketing and sponsorship</option>
+            <option value="4">Student-alumni relations</option>
+          </optgroup>
+          <optgroup label="Outreach">
+            <option value="5">Event publicity</option>
+            <option value="6">Recruitment notice</option>
+          </optgroup>
+          <optgroup label="Help">
+            <option value="7">Academic advisory</option>
+            <option value="8">Locker enquiry</option>
+            <option value="9">IT support</option>
+          </optgroup>
+        </select>
+        <label>Enquiry type</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">subject</i>
+        <input id="subject" type="text" class="validate" data-length="30" name="subject">
+        <label for="subject">Subject</label>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">message</i>
+        <textarea id="message" class="materialize-textarea" data-length="300" name="message"></textarea>
+        <label for="message">Message</label>
+      </div>
+    </div>
+
+    <button id="connect" class="btn waves-effect waves-light" type="submit" name="action">
+      Send
+      <i class="material-icons right">send</i>
+    </button>
+
+  </form>
+</div>
+
+<script>
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+
+  $('#form-connect').submit(function(event) {
+    event.preventDefault();
+
+    let serializedArr = $('#form-connect').serializeArray();
+    let serializedObj = {};
+    for (let i = 0; i < serializedArr.length; i++) {
+      let field = serializedArr[i];
+      serializedObj[field.name] = field.value;
+    }
+
+    $.ajax({
+      url: 'http://contact-jiayee.rhcloud.com/connect',
+      method: 'POST',
+      contentType: 'application/json',
+      data: JSON.stringify(serializedObj)
+    });
+  });
+</script>
