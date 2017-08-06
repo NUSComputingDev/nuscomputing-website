@@ -12,6 +12,7 @@
                     var modalId = {{ .Params.Title }};
                     modalId = modalId.replace(/[-!$%^&*()#_+|~=`{}\[\]:";\'<>?,.\/]/g, '');
                     modalId = modalId.replace(/ /g, '-');
+                    modalId = modalId + '-modalId';
                     // console.log(modalId);  // Use this to check id if there's problem loading page
                 </script>
 
