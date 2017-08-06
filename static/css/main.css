@@ -49,9 +49,8 @@ a.button:hover {
 .highlighttable td,th{padding:0;border:0;}td.code{width:95%;}
 
 .event-segment {
-  background-color: #F5F5F5;
-  margin-bottom: 24px;
-  box-shadow: 1px 1px 5px #888888;
+  /*background-color: #F5F5F5;*/
+  margin-bottom: 5%;
   padding: 8%;
 }
 
