@@ -59,6 +59,21 @@ a.button:hover {
   padding-right: 10%;
 }
 
+.modal-header {
+  width: 100%;
+  padding: 24px;
+  padding-bottom: 0;
+}
+
+#close-icon {
+  color: rgba(38, 50, 56, 0.7);
+  margin: 1%;
+}
+
+#close-icon:hover {
+  color: rgba(38, 50, 56, 1);
+}
+
 nav {
   background-color: transparent;
   box-shadow: none;
