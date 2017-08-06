@@ -7,9 +7,25 @@
             <div class="row">
             {{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Type" "event") 8 }}
             {{ range $paginator.Pages -}}
+                <script>
+                    // Generate modalId dynamically
+                    var modalId = {{ .Params.Title }};
+                    modalId = modalId.replace(/[-!$%^&*()_+|~=`{}\[\]:";\'<>?,.\/]/g, '');
+                    modalId = modalId.replace(/ /g, '-');
+                    console.log(modalId);
+                </script>
+
                 <div class="col s6 m3">{{ .Render "list-segment" }}</div>
 
                 {{ .Render "modal" }}
+
+                <script type="text/javascript">
+                    // Attach modalId to modal and link
+                    $('#eventSegment').attr('href', '#'+modalId);
+                    $('#eventSegment').attr('id', '');  // remove id, otherwise there will be multiple divs with same id 
+                                                        // floating around
+                    $('#modalIdPlaceholder').attr('id', modalId);
+                </script>
             {{ end }}
             </div>
         </div>
