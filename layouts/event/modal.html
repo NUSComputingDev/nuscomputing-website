@@ -1,36 +1,40 @@
 <!-- Modal Structure -->
 <div id="modalIdPlaceholder" class="modal" style="overflow: hidden; height: 100%;">
 	<div style=" display: flex; flex-direction: column; height: 100%;">
-		<div class="modal-header" style="display: flex;">
-			<h5 style="flex: 1;" class="override-justify">{{ .Title }}</h5>
-			<a class="modal-close right">
-				<i id="close-icon" class="material-icons">close</i>
-			</a>
+		<div style="flex: 1;">
+			<div class="modal-header" style="display: flex;">
+				<h5 style="flex: 1;" class="override-justify">{{ .Title }}</h5>
+				<a class="modal-close right">
+					<i id="close-icon" class="material-icons">close</i>
+				</a>
+			</div>
 		</div>
 
-		<div class="modal-content" style="padding-top: 0; flex: 1;  overflow-y: auto;">
+		<div style="overflow-y: auto;">
+			<div class="modal-content" style="padding-top: 0;">
 
-			<!-- Desktop and Tablet Layout -->
-			<div class="hide-on-small-and-down row">
-				<!-- <h5>{{ .Title }}</h5> -->
-				<div class="col s8">
-					<p>{{ .Content }}</p>
-					<a class="button" href="{{ .Params.externalLink }}" target="_blank">External Link</a>
+				<!-- Desktop and Tablet Layout -->
+				<div class="hide-on-small-and-down row">
+					<!-- <h5>{{ .Title }}</h5> -->
+					<div class="col s8">
+						<p>{{ .Content }}</p>
+						<a class="button" href="{{ .Params.externalLink }}" target="_blank">External Link</a>
+					</div>
+					<div class="col s4">
+						<img src="{{ .Site.BaseURL }}/img/event/{{ .Params.image }}">
+					</div>
 				</div>
-				<div class="col s4">
+				<!-- / Desktop and Tablet Layout -->
+
+				<!-- Mobile Layout -->
+				<div class="hide-on-med-and-up">
+					<!-- <h5>{{ .Title }}</h5> -->
 					<img src="{{ .Site.BaseURL }}/img/event/{{ .Params.image }}">
+					<p>{{ .Content }}</p>
+					<a class="button" href="{{ .Params.externalLink }}">External Link</a>	
 				</div>
+				<!-- / Mobile Layout -->
 			</div>
-			<!-- / Desktop and Tablet Layout -->
-
-			<!-- Mobile Layout -->
-			<div class="hide-on-med-and-up">
-				<!-- <h5>{{ .Title }}</h5> -->
-				<img src="{{ .Site.BaseURL }}/img/event/{{ .Params.image }}">
-				<p>{{ .Content }}</p>
-				<a class="button" href="{{ .Params.externalLink }}">External Link</a>	
-			</div>
-			<!-- / Mobile Layout -->
 		</div>
 	</div>
 	
