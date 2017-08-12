@@ -67,11 +67,16 @@ a.button:hover {
 
 #close-icon {
   color: rgba(38, 50, 56, 0.7);
-  margin: 1%;
 }
 
 #close-icon:hover {
   color: rgba(38, 50, 56, 1);
+}
+
+#close-modal {
+  top: 12px;
+  right: 12px;
+  position: absolute;
 }
 
 nav {
