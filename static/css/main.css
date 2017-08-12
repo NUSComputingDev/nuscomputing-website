@@ -62,7 +62,6 @@ a.button:hover {
 .modal-header {
   width: 100%;
   padding: 24px;
-  padding-bottom: 0;
 }
 
 #close-icon {
