@@ -51,7 +51,6 @@ Fill in the file with the event details as follows:
 +++
 externalLink = <link to event page>
 image = <filename of image (in ./static/img/event)>
-modal = <modal ID>
 title = <title>
 +++
 
