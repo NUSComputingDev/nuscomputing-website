@@ -1,6 +1,6 @@
 <nav class="site-header">
-	<div class="nav-wrapper">
-	  	<div class="left branding valign-wrapper">
+	<div class="nav-wrapper" style="display: flex;">
+	  	<div class="left branding valign-wrapper" style="flex: 1;">
 			<a href="{{ .Site.BaseURL }}">
 			{{ with .Site.Params.gravatar -}}
 				<img class="avatar" src="https://www.gravatar.com/avatar/{{ . | md5 }}?s=100&d=identicon" alt=""/>
