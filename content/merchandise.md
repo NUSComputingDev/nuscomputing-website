@@ -4,6 +4,7 @@ title = "Merchandise"
 featureimage = ""
 menu = "nav"
 disableComments = true
+draft = true
 +++
 
 ### Product Catalogue

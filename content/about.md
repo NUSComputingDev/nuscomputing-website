@@ -1,7 +1,7 @@
 +++
 date = "2017-05-14"
 title = "About"
-featureimage = ""
+featureimage = "img/sample_feature_img_2.png"
 menu = "nav"
 disableComments = true
 sideMenuIds = ["comp-club", "mc", "current-mc", "past-mc"]
@@ -21,7 +21,3 @@ Throughout a typical academic year, CompClub organizes various events for its me
 ### <div id="current-mc" class="section scrollspy">Current MC</div>
 
 
-
-### <div id="past-mc" class="section scrollspy">Past MC Members</div>
-
-18th MC (AY2015/16)
