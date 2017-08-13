@@ -4,8 +4,8 @@ title = "About"
 featureimage = "img/sample_feature_img_2.png"
 menu = "nav"
 disableComments = true
-sideMenuIds = ["comp-club", "mc", "current-mc", "past-mc"]
-sideMenuNames = ["Computing Club", "The Management Committee", "Current MC", "Past MCs"]
+sideMenuIds = ["comp-club", "mc", "current-mc"]
+sideMenuNames = ["Computing Club", "The Management Committee", "Current MC"]
 +++
 
 ### <div id="comp-club" class="section scrollspy">Computing Club</div>
@@ -20,4 +20,4 @@ Throughout a typical academic year, CompClub organizes various events for its me
 
 ### <div id="current-mc" class="section scrollspy">Current MC</div>
 
-
+<img src="img/about/current-mc.jpg">
