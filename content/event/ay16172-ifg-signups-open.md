@@ -5,7 +5,7 @@ date = "2017-05-08"
 image = "ay16172-ifg-signups-open.jpg"
 title = "IFG 2017 Signups Open!"
 type = "event"
-externalLink = "https://www.facebook.com/events/1177463648949180/"
+externalLink = "https://www.facebook.com/nuscomputing/"
 modal = "ay16172-ifg-signups-open"
 
 +++
