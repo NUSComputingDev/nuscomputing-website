@@ -44,10 +44,10 @@ The next generation of leaders could be YOU. Check out the Elections website [he
 <div class="col s3 m3 l3"><img src="../img/about/19-mc/PresidentialWing/Genevieve.jpg"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Benjamin Loo President</div>
-<div class="col s3 m3 l3 center-align">Tan Yongming General Secretary</div>
-<div class="col s3 m3 l3 center-align">Phoebe Neo Deputy General Secretary</div>
-<div class="col s3 m3 l3 center-align">Genevieve Student Relations Secretary</div>
+<div class="col s3 m3 l3 center-align">Benjamin Loo<br>President</div>
+<div class="col s3 m3 l3 center-align">Tan Yongming<br>General Secretary</div>
+<div class="col s3 m3 l3 center-align">Phoebe Neo<br>Deputy General Secretary</div>
+<div class="col s3 m3 l3 center-align">Genevieve<br>Student Relations Secretary</div>
 </div>
 <div class="row has-rounded-images">
 <div class="col s3 m3 l3"><img src="../img/about/19-mc/PresidentialWing/Caryn.jpg"></div>
@@ -56,8 +56,8 @@ The next generation of leaders could be YOU. Check out the Elections website [he
 <div class="col s3 m3 l3"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Caryn Heng Deputy Student Relations Secretary</div>
-<div class="col s3 m3 l3 center-align">Natania Director of Finance</div>
+<div class="col s3 m3 l3 center-align">Caryn Heng<br>Deputy Student Relations Secretary</div>
+<div class="col s3 m3 l3 center-align">Natania<br>Director of Finance</div>
 <div class="col s3 m3 l3 center-align">Sin Yi<br>Deputy Director of Finance</div>
 <div class="col s3 m3 l3 center-align"></div>
 </div>
@@ -70,10 +70,10 @@ The next generation of leaders could be YOU. Check out the Elections website [he
 <div class="col s3 m3 l3"><img src="../img/about/19-mc/ExternalRelationsWing/Mindy.jpg"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Ng Zi Kai Vice President (External Relations)</div>
-<div class="col s3 m3 l3 center-align">Kenneth Ho Director of Alumni Relations</div>
+<div class="col s3 m3 l3 center-align">Ng Zi Kai<br>Vice President (External Relations)</div>
+<div class="col s3 m3 l3 center-align">Kenneth Ho<br>Director of Alumni Relations</div>
 <div class="col s3 m3 l3 center-align">Joel<br>Deputy Director of Alumni Relations</div>
-<div class="col s3 m3 l3 center-align">Mindy Soh Director of Marketing</div>
+<div class="col s3 m3 l3 center-align">Mindy Soh<br>Director of Marketing</div>
 </div>
 <div class="row has-rounded-images">
 <div class="col s3 m3 l3"><img src="../img/about/19-mc/ExternalRelationsWing/Menglin.jpg"></div>
@@ -84,8 +84,8 @@ The next generation of leaders could be YOU. Check out the Elections website [he
 <div class="row">
 <div class="col s3 m3 l3 center-align">Menglin<br>Deputy Director of Marketing</div>
 <div class="col s3 m3 l3 center-align">Sarah<br>Deputy Director of Marketing</div>
-<div class="col s3 m3 l3 center-align">Rebecca Tan Director of Publicity</div>
-<div class="col s3 m3 l3 center-align">Kian Wee Deputy Director of Publicity</div>
+<div class="col s3 m3 l3 center-align">Rebecca Tan<br>Director of Publicity</div>
+<div class="col s3 m3 l3 center-align">Kian Wee<br>Deputy Director of Publicity</div>
 </div>
 
 #### Human Resource and Development Wing
@@ -96,10 +96,10 @@ The next generation of leaders could be YOU. Check out the Elections website [he
 <div class="col s3 m3 l3"><img src="../img/about/19-mc/HRDWing/Darryl.jpg"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Yong Cheng Vice President (Human Resource and Development)</div>
+<div class="col s3 m3 l3 center-align">Yong Cheng<br>Vice President (Human Resource and Development)</div>
 <div class="col s3 m3 l3 center-align">Robin<br>Director of Academic Liaison</div>
-<div class="col s3 m3 l3 center-align">Kenneth Loh Deputy Director of Academic Liaison</div>
-<div class="col s3 m3 l3 center-align">Darryl Leong Director of Sports</div>
+<div class="col s3 m3 l3 center-align">Kenneth Loh<br>Deputy Director of Academic Liaison</div>
+<div class="col s3 m3 l3 center-align">Darryl Leong<br>Director of Sports</div>
 </div>
 <div class="row has-rounded-images">
 <div class="col s3 m3 l3"><img src="../img/about/19-mc/HRDWing/RebeccaLee.jpg"></div>
@@ -108,9 +108,9 @@ The next generation of leaders could be YOU. Check out the Elections website [he
 <div class="col s3 m3 l3"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Rebecca Lee Deputy Director of Sports</div>
+<div class="col s3 m3 l3 center-align">Rebecca Lee<br>Deputy Director of Sports</div>
 <div class="col s3 m3 l3 center-align">Jasmine<br>Director of Welfare</div>
-<div class="col s3 m3 l3 center-align">Wei Wen Deputy Director of Welfare</div>
+<div class="col s3 m3 l3 center-align">Wei Wen<br>Deputy Director of Welfare</div>
 <div class="col s3 m3 l3 center-align"></div>
 </div>
 
@@ -122,9 +122,9 @@ The next generation of leaders could be YOU. Check out the Elections website [he
 <div class="col s3 m3 l3"><img src="../img/about/19-mc/OpsWing/Fabian.jpg"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Soh Wei Hao Vice President (Operations and Projects)</div>
-<div class="col s3 m3 l3 center-align">Dewi Tan Director of Freshmen Orientation Projects</div>
-<div class="col s3 m3 l3 center-align">Desmond Ang Deputy Director of Freshmen Orientation Projects</div>
+<div class="col s3 m3 l3 center-align">Soh Wei Hao<br>Vice President (Operations and Projects)</div>
+<div class="col s3 m3 l3 center-align">Dewi Tan<br>Director of Freshmen Orientation Projects</div>
+<div class="col s3 m3 l3 center-align">Desmond Ang<br>Deputy Director of Freshmen Orientation Projects</div>
 <div class="col s3 m3 l3 center-align">Fabian<br>Director of Logistics</div>
 </div>
 <div class="row has-rounded-images">
@@ -134,9 +134,9 @@ The next generation of leaders could be YOU. Check out the Elections website [he
 <div class="col s3 m3 l3"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Zhi Rong Deputy Director of Logistics</div>
-<div class="col s3 m3 l3 center-align">Lim Jia Yee Director of Information Technology</div>
-<div class="col s3 m3 l3 center-align">Lee Yi Min Deputy Director of Information Technology</div>
+<div class="col s3 m3 l3 center-align">Zhi Rong<br>Deputy Director of Logistics</div>
+<div class="col s3 m3 l3 center-align">Lim Jia Yee<br>Director of Information Technology</div>
+<div class="col s3 m3 l3 center-align">Lee Yi Min<br>Deputy Director of Information Technology</div>
 <div class="col s3 m3 l3 center-align"></div>
 </div>
 
