@@ -2,7 +2,7 @@
 categories = []
 date = "2017-05-22T19:50:48+08:00"
 draft = false
-featureimage = "img/sample_feature_img_3.png"
+featureimage = "img/sample_feature_img_2.png"
 menu = "nav"
 tags = []
 title = "Events"

@@ -98,3 +98,7 @@ nav {
 .valign-wrapper {
   height: 100%;
 }
+
+.has-rounded-images, img {
+  border-radius: 20%;
+}
