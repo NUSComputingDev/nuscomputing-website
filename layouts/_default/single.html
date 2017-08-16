@@ -13,27 +13,26 @@
     {{- end }}
     </article>
 
-    <div class="row">&nbsp;</div><!-- This is a sin. -->
+    <div class="container clearfix" style="padding-top: 5%;">
+        <div class="row">
+            <div class="col s12 m9 l9">
+            {{ .Content }}
 
-    <div class="row container">
-    <section class="post-content">
-        <div class="col s12 m9 l9">
-        {{ .Content }}
-
-        {{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
-            {{ template "_internal/disqus.html" . }}
-        {{ end }}
-        </div>
-        <div class="col hide-on-small-only m3 l3">
-            <div id="sideMenu" class="override-justify">
-                <ul class="section table-of-contents">
-                {{ range $index, $element := .Params.sideMenuIds }}
-                    <li><a href="#{{ $element }}">{{ index $.Params.sideMenuNames $index }}</a></li>
-                {{ end }}
-                </ul>
+            {{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
+                {{ template "_internal/disqus.html" . }}
+            {{ end }}
+            </div>
+            <div class="col hide-on-small-only m3 l3">
+                <div id="sideMenu" class="override-justify">
+                    <ul class="section table-of-contents">
+                    {{ range $index, $element := .Params.sideMenuIds }}
+                        <li><a href="#{{ $element }}">{{ index $.Params.sideMenuNames $index }}</a></li>
+                    {{ end }}
+                    </ul>
+                </div>
             </div>
         </div>
-    </section>
+
     </div>
 
     <script>
