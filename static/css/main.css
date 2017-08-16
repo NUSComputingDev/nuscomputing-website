@@ -80,3 +80,8 @@ nav {
 .has-rounded-images img {
   border-radius: 20%;
 }
+
+#post-content img {
+  display: block;
+  margin: 0 auto;
+}
