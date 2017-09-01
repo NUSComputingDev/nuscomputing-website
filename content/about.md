@@ -20,7 +20,7 @@ Throughout a typical academic year, CompClub organizes various events for its me
 
 ### <div id="20-mc" class="section scrollspy">20th MC</div>
 
-The 20th MC General Elections are about to begin.
+The 20th MC General Elections have begun.
 
 <!-- This is a sin. -->
 <div class="row">
