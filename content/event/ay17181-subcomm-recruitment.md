@@ -1,11 +1,11 @@
 +++
 categories = []
 tags = []
-date = "2017-08-16"
-image = "ay1718-subcomm-recruitment.jpg"
+date = "2017-09-26"
+image = "ay17181-subcomm-recruitment.jpg"
 title = "20th MC Sub-Committee Recruitment"
 type = "event"
 externalLink = "https://recruitment.nuscomputing.com/"
-modal = "ay1718-subcomm-recruitment"
+modal = "ay17181-subcomm-recruitment"
 
 +++
