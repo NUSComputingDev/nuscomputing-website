@@ -1,4 +1,4 @@
-baseURL = "http://nuscomputing.com/"
+baseURL = "https://nuscomputing.com/"
 languageCode = "en-us"
 title = "NUS Students' Computing Club"
 theme = "hugo-type-theme"
