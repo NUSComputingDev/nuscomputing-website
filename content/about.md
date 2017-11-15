@@ -33,7 +33,7 @@ Throughout a typical academic year, CompClub organizes various events for its me
 <div class="col s3 m3 l3 center-align">Joel Lim<br>President</div>
 <div class="col s3 m3 l3 center-align">Tsai Yu Hsuan<br>General Secretary</div>
 <div class="col s3 m3 l3 center-align">Ng Chee Siang<br>Deputy General Secretary</div>
-<div class="col s3 m3 l3 center-align">Jason Yip<br>Financial Secretary</div>
+<div class="col s3 m3 l3 center-align">Jason Yip<br>Finance Secretary</div>
 </div>
 <div class="row has-rounded-images">
 <div class="col s3 m3 l3"><img src="../img/about/20-mc/09_LeeShiMing_AssistantFinancialSecretary.jpg"></div>
@@ -42,9 +42,9 @@ Throughout a typical academic year, CompClub organizes various events for its me
 <div class="col s3 m3 l3"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Lee Shi Ming<br>Deputy Director of Finance</div>
-<div class="col s3 m3 l3 center-align">Eugene Lim<br>Deputy Student Relations Secretary</div>
-<div class="col s3 m3 l3 center-align">Chng Zhi Xuan<br>Director of Finance</div>
+<div class="col s3 m3 l3 center-align">Lee Shi Ming<br>Assistant Finance Secretary</div>
+<div class="col s3 m3 l3 center-align">Eugene Lim<br>IT Secretary</div>
+<div class="col s3 m3 l3 center-align">Chng Zhi Xuan<br>Assistant IT Secretary</div>
 <div class="col s3 m3 l3 center-align"></div>
 </div>
 
@@ -56,7 +56,7 @@ Throughout a typical academic year, CompClub organizes various events for its me
 <div class="col s3 m3 l3"><img src="../img/about/20-mc/12_GervaiseAng_DirectorMarketing.jpg"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Yeo Kian Wee<br>Vice President (Student Life)</div>
+<div class="col s3 m3 l3 center-align">Yeo Kian Wee<br>Vice President (External Relations)</div>
 <div class="col s3 m3 l3 center-align">Lawrence Lim<br>Director of Publicity</div>
 <div class="col s3 m3 l3 center-align">Rebecca Tan<br>Deputy Director of Publicity</div>
 <div class="col s3 m3 l3 center-align">Gervaise Ang<br>Director of Marketing</div>
@@ -68,8 +68,8 @@ Throughout a typical academic year, CompClub organizes various events for its me
 <div class="col s3 m3 l3"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Luan Menglin<br>Deputy Director of Marketing</div>
-<div class="col s3 m3 l3 center-align">Sarah Gui<br>Deputy Director of Marketing</div>
+<div class="col s3 m3 l3 center-align">Kevin Alvarez<br>Deputy Director of Marketing (Sponsorship)</div>
+<div class="col s3 m3 l3 center-align">Clarisse Lim<br>Deputy Director of Marketing (Merchandise)</div>
 <div class="col s3 m3 l3 center-align"></div>
 <div class="col s3 m3 l3 center-align"></div>
 </div>
@@ -82,7 +82,7 @@ Throughout a typical academic year, CompClub organizes various events for its me
 <div class="col s3 m3 l3"><img src="../img/about/20-mc/19_ShannonKok_DirectorSports.jpg"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Amanda Tan<br>Vice President (Internal)</div>
+<div class="col s3 m3 l3 center-align">Amanda Tan<br>Vice President (Internal Relations)</div>
 <div class="col s3 m3 l3 center-align">Ian Tan<br>Director of Welfare</div>
 <div class="col s3 m3 l3 center-align">Low Rui Jia<br>Deputy Director of Welfare</div>
 <div class="col s3 m3 l3 center-align">Shannon Kok<br>Director of Sports</div>
@@ -109,7 +109,7 @@ Throughout a typical academic year, CompClub organizes various events for its me
 </div>
 <div class="row">
 <div class="col s3 m3 l3 center-align">Elysia Tan<br>Vice President (Student Development)</div>
-<div class="col s3 m3 l3 center-align">Lee Yi Yuan<br>Director of Academic Liaison</div>
+<div class="col s3 m3 l3 center-align">Lee Yiyuan<br>Director of Academic Liaison</div>
 <div class="col s3 m3 l3 center-align">Gabriel Tan<br>Deputy Director of Academic Liaison</div>
 <div class="col s3 m3 l3 center-align">Tan Wei Li<br>Director of Community Service</div>
 </div>
@@ -120,7 +120,7 @@ Throughout a typical academic year, CompClub organizes various events for its me
 <div class="col s3 m3 l3"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Leow Zhi Rong<br>Deputy Director of Logistics</div>
+<div class="col s3 m3 l3 center-align">Leow Zhi Rong<br>Deputy Director of Community Service</div>
 <div class="col s3 m3 l3 center-align"></div>
 <div class="col s3 m3 l3 center-align"></div>
 <div class="col s3 m3 l3 center-align"></div>
@@ -135,8 +135,8 @@ Throughout a typical academic year, CompClub organizes various events for its me
 </div>
 <div class="row">
 <div class="col s3 m3 l3 center-align">Joel Sim<br>Vice President (Student Life)</div>
-<div class="col s3 m3 l3 center-align">Vanessa Loh<br>Director of Freshman Orientation Projects</div>
-<div class="col s3 m3 l3 center-align">Francis Lee<br>Deputy Director of Freshman Orientation Projects</div>
+<div class="col s3 m3 l3 center-align">Vanessa Loh<br>Director of Freshmen Orientation Projects</div>
+<div class="col s3 m3 l3 center-align">Francis Lee<br>Deputy Director of Freshmen Orientation Projects</div>
 <div class="col s3 m3 l3 center-align">Lim Sing Jie<br>Director of Student Relations</div>
 </div>
 <div class="row has-rounded-images">
@@ -150,4 +150,4 @@ Throughout a typical academic year, CompClub organizes various events for its me
 <div class="col s3 m3 l3 center-align"></div>
 <div class="col s3 m3 l3 center-align"></div>
 <div class="col s3 m3 l3 center-align"></div>
-</div>
+</div>xs
