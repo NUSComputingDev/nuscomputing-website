@@ -1,11 +1,11 @@
 +++
-date = "2017-05-14"
+date = "2017-11-14"
 title = "About"
 featureimage = "img/sample_feature_img_2.png"
 menu = "nav"
 disableComments = true
-sideMenuIds = ["comp-club", "mc", "20-mc", "19-mc"]
-sideMenuNames = ["Computing Club", "The Management Committee", "New MC", "19th MC"]
+sideMenuIds = ["comp-club", "mc", "20-mc"]
+sideMenuNames = ["Computing Club", "The Management Committee", "20th MC"]
 +++
 
 ### <div id="comp-club" class="section scrollspy"><img src="../img/about/logo.png"></div>
@@ -20,123 +20,134 @@ Throughout a typical academic year, CompClub organizes various events for its me
 
 ### <div id="20-mc" class="section scrollspy">20th MC</div>
 
-The 20th MC General Elections have begun.
-
-<!-- This is a sin. -->
-<div class="row">
-<div class="col s3 m3 l3"><img src="../img/about/you.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/you.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/you.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/you.jpg"></div>
-</div>
-
-The next generation of leaders could be YOU. Check out the Elections website [here](https://elections.nuscomputing.com) for more details on how YOU can step up to the challenge.
-
-### <div id="19-mc" class="section scrollspy">19th MC (Incumbent)</div>
-
-<img src="../img/about/19-mc/ManagementCommittee.jpg">
+<img src="../img/about/20-mc/Group.jpg">
 
 #### Presidential Wing
 <div class="row has-rounded-images">
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/PresidentialWing/Benjamin.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/PresidentialWing/Yongming.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/PresidentialWing/Phoebe.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/PresidentialWing/Genevieve.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/01_JoelLim_President.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/06_TsaiYuHsuan_GeneralSecretary.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/07_NgCheeSiang_AssistantGeneralSecretary.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/08_JasonYip_FinancialSecretary.jpg"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Benjamin Loo<br>President</div>
-<div class="col s3 m3 l3 center-align">Tan Yongming<br>General Secretary</div>
-<div class="col s3 m3 l3 center-align">Phoebe Neo<br>Deputy General Secretary</div>
-<div class="col s3 m3 l3 center-align">Genevieve Tay<br>Student Relations Secretary</div>
+<div class="col s3 m3 l3 center-align">Joel Lim<br>President</div>
+<div class="col s3 m3 l3 center-align">Tsai Yu Hsuan<br>General Secretary</div>
+<div class="col s3 m3 l3 center-align">Ng Chee Siang<br>Deputy General Secretary</div>
+<div class="col s3 m3 l3 center-align">Jason Yip<br>Financial Secretary</div>
 </div>
 <div class="row has-rounded-images">
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/PresidentialWing/Caryn.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/PresidentialWing/Natania.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/PresidentialWing/SinYi.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/09_LeeShiMing_AssistantFinancialSecretary.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/10_EugeneLim_SecretaryIT.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/11_ChngZhiXuan_DySecretaryIT.jpg"></div>
 <div class="col s3 m3 l3"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Caryn Heng<br>Deputy Student Relations Secretary</div>
-<div class="col s3 m3 l3 center-align">Natania Djohari<br>Director of Finance</div>
-<div class="col s3 m3 l3 center-align">Yuan Sin Yi<br>Deputy Director of Finance</div>
+<div class="col s3 m3 l3 center-align">Lee Shi Ming<br>Deputy Director of Finance</div>
+<div class="col s3 m3 l3 center-align">Eugene Lim<br>Deputy Student Relations Secretary</div>
+<div class="col s3 m3 l3 center-align">Chng Zhi Xuan<br>Director of Finance</div>
 <div class="col s3 m3 l3 center-align"></div>
 </div>
 
 #### External Relations Wing
 <div class="row has-rounded-images">
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/ExternalRelationsWing/ZiKai.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/ExternalRelationsWing/KennethHo.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/ExternalRelationsWing/Joel.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/ExternalRelationsWing/Mindy.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/02_YeoKianWee_VPExternalRelations.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/15_LawrenceLim_DirectorPublicity.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/16_RebeccaTan_DyDirectorPublicity.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/12_GervaiseAng_DirectorMarketing.jpg"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Ng Zi Kai<br>Vice President (External Relations)</div>
-<div class="col s3 m3 l3 center-align">Kenneth Ho<br>Director of Alumni Relations</div>
-<div class="col s3 m3 l3 center-align">Joel Ng<br>Deputy Director of Alumni Relations</div>
-<div class="col s3 m3 l3 center-align">Mindy Soh<br>Director of Marketing</div>
+<div class="col s3 m3 l3 center-align">Yeo Kian Wee<br>Vice President (Student Life)</div>
+<div class="col s3 m3 l3 center-align">Lawrence Lim<br>Director of Publicity</div>
+<div class="col s3 m3 l3 center-align">Rebecca Tan<br>Deputy Director of Publicity</div>
+<div class="col s3 m3 l3 center-align">Gervaise Ang<br>Director of Marketing</div>
 </div>
 <div class="row has-rounded-images">
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/ExternalRelationsWing/Menglin.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/ExternalRelationsWing/Sarah.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/ExternalRelationsWing/RebeccaTan.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/ExternalRelationsWing/KianWee.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/13_NicoleKevin_DyDirectorMarketing.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/14_ClarisseLim_DyDirectorMarketing.jpg"></div>
+<div class="col s3 m3 l3"></div>
+<div class="col s3 m3 l3"></div>
 </div>
 <div class="row">
 <div class="col s3 m3 l3 center-align">Luan Menglin<br>Deputy Director of Marketing</div>
 <div class="col s3 m3 l3 center-align">Sarah Gui<br>Deputy Director of Marketing</div>
-<div class="col s3 m3 l3 center-align">Rebecca Tan<br>Director of Publicity</div>
-<div class="col s3 m3 l3 center-align">Yeo Kian Wee<br>Deputy Director of Publicity</div>
-</div>
-
-#### Human Resource and Development Wing
-<div class="row has-rounded-images">
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/HRDWing/YongCheng.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/HRDWing/Robin.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/HRDWing/KennethLoh.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/HRDWing/Darryl.jpg"></div>
-</div>
-<div class="row">
-<div class="col s3 m3 l3 center-align">Low Yong Cheng<br>Vice President (Human Resource and Development)</div>
-<div class="col s3 m3 l3 center-align">Robin Loh<br>Director of Academic Liaison</div>
-<div class="col s3 m3 l3 center-align">Kenneth Loh<br>Deputy Director of Academic Liaison</div>
-<div class="col s3 m3 l3 center-align">Darryl Leong<br>Director of Sports</div>
-</div>
-<div class="row has-rounded-images">
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/HRDWing/RebeccaLee.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/HRDWing/Jasmine.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/HRDWing/WeiWen.jpg"></div>
-<div class="col s3 m3 l3"></div>
-</div>
-<div class="row">
-<div class="col s3 m3 l3 center-align">Rebecca Lee<br>Deputy Director of Sports</div>
-<div class="col s3 m3 l3 center-align">Jasmine Ang<br>Director of Welfare</div>
-<div class="col s3 m3 l3 center-align">Leong Wei Wen<br>Deputy Director of Welfare</div>
+<div class="col s3 m3 l3 center-align"></div>
 <div class="col s3 m3 l3 center-align"></div>
 </div>
 
-#### Operations and Projects Wing
+#### Internal Wing
 <div class="row has-rounded-images">
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/OpsWing/WeiHao.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/OpsWing/Dewi.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/OpsWing/Desmond.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/OpsWing/Fabian.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/03_AmandaTan_VPInternal.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/17_IanTan_DirectorWelfare.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/18_LowRuiJia_DyDirectorWelfare.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/19_ShannonKok_DirectorSports.jpg"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Soh Wei Hao<br>Vice President (Operations and Projects)</div>
-<div class="col s3 m3 l3 center-align">Dewi Tan<br>Director of Freshmen Orientation Projects</div>
-<div class="col s3 m3 l3 center-align">Desmond Ang<br>Deputy Director of Freshmen Orientation Projects</div>
-<div class="col s3 m3 l3 center-align">Fabian Tan<br>Director of Logistics</div>
+<div class="col s3 m3 l3 center-align">Amanda Tan<br>Vice President (Internal)</div>
+<div class="col s3 m3 l3 center-align">Ian Tan<br>Director of Welfare</div>
+<div class="col s3 m3 l3 center-align">Low Rui Jia<br>Deputy Director of Welfare</div>
+<div class="col s3 m3 l3 center-align">Shannon Kok<br>Director of Sports</div>
 </div>
 <div class="row has-rounded-images">
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/OpsWing/ZhiRong.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/OpsWing/JiaYee.jpg"></div>
-<div class="col s3 m3 l3"><img src="../img/about/19-mc/OpsWing/YiMin.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/20_KerwinKow_DyDirectorSports.jpg"></div>
+<div class="col s3 m3 l3"></div>
+<div class="col s3 m3 l3"></div>
+<div class="col s3 m3 l3"></div>
+</div>
+<div class="row">
+<div class="col s3 m3 l3 center-align">Kerwin Kow<br>Deputy Director of Sports</div>
+<div class="col s3 m3 l3 center-align"></div>
+<div class="col s3 m3 l3 center-align"></div>
+<div class="col s3 m3 l3 center-align"></div>
+</div>
+
+#### Student Development Wing
+<div class="row has-rounded-images">
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/04_ElysiaTan_VPStudentDevelopment.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/25_LeeYiyuan_DirectorAcademicLiaison.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/26_GabrielTan_DyDirectorAcademicLiaison.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/27_TanWeiLi_DirectorCommunityService.jpg"></div>
+</div>
+<div class="row">
+<div class="col s3 m3 l3 center-align">Elysia Tan<br>Vice President (Student Development)</div>
+<div class="col s3 m3 l3 center-align">Lee Yi Yuan<br>Director of Academic Liaison</div>
+<div class="col s3 m3 l3 center-align">Gabriel Tan<br>Deputy Director of Academic Liaison</div>
+<div class="col s3 m3 l3 center-align">Tan Wei Li<br>Director of Community Service</div>
+</div>
+<div class="row has-rounded-images">
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/28_ZhaoJunRu_DyDirectorCommunityService.jpg"></div>
+<div class="col s3 m3 l3"></div>
+<div class="col s3 m3 l3"></div>
 <div class="col s3 m3 l3"></div>
 </div>
 <div class="row">
 <div class="col s3 m3 l3 center-align">Leow Zhi Rong<br>Deputy Director of Logistics</div>
-<div class="col s3 m3 l3 center-align">Lim Jia Yee<br>Director of Information Technology</div>
-<div class="col s3 m3 l3 center-align">Lee Yi Min<br>Deputy Director of Information Technology</div>
+<div class="col s3 m3 l3 center-align"></div>
+<div class="col s3 m3 l3 center-align"></div>
 <div class="col s3 m3 l3 center-align"></div>
 </div>
 
+#### Student Life Wing
+<div class="row has-rounded-images">
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/05_JoelSim_VPStudentLife.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/21_VanessaLoh_DirectorFOP.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/22_FrancisLee_DyDirectorFOP.jpg"></div>
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/23_LimSingJie_DirectorStudentRelations.jpg"></div>
+</div>
+<div class="row">
+<div class="col s3 m3 l3 center-align">Joel Sim<br>Vice President (Student Life)</div>
+<div class="col s3 m3 l3 center-align">Vanessa Loh<br>Director of Freshman Orientation Projects</div>
+<div class="col s3 m3 l3 center-align">Francis Lee<br>Deputy Director of Freshman Orientation Projects</div>
+<div class="col s3 m3 l3 center-align">Lim Sing Jie<br>Director of Student Relations</div>
+</div>
+<div class="row has-rounded-images">
+<div class="col s3 m3 l3"><img src="../img/about/20-mc/24_JeremyLim_DyDirectorStudentRelations.jpg"></div>
+<div class="col s3 m3 l3"></div>
+<div class="col s3 m3 l3"></div>
+<div class="col s3 m3 l3"></div>
+</div>
+<div class="row">
+<div class="col s3 m3 l3 center-align">Jeremy Lim<br>Deputy Director of Student Relations</div>
+<div class="col s3 m3 l3 center-align"></div>
+<div class="col s3 m3 l3 center-align"></div>
+<div class="col s3 m3 l3 center-align"></div>
+</div>
