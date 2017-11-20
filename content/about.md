@@ -32,7 +32,7 @@ Throughout a typical academic year, CompClub organizes various events for its me
 <div class="row">
 <div class="col s3 m3 l3 center-align">Joel Lim<br>President</div>
 <div class="col s3 m3 l3 center-align">Tsai Yu Hsuan<br>General Secretary</div>
-<div class="col s3 m3 l3 center-align">Ng Chee Siang<br>Deputy General Secretary</div>
+<div class="col s3 m3 l3 center-align">Ng Chee Siang<br>Assistant General Secretary</div>
 <div class="col s3 m3 l3 center-align">Jason Yip<br>Finance Secretary</div>
 </div>
 <div class="row has-rounded-images">
@@ -120,7 +120,7 @@ Throughout a typical academic year, CompClub organizes various events for its me
 <div class="col s3 m3 l3"></div>
 </div>
 <div class="row">
-<div class="col s3 m3 l3 center-align">Leow Zhi Rong<br>Deputy Director of Community Service</div>
+<div class="col s3 m3 l3 center-align">Zhao Jun Ru<br>Deputy Director of Community Service</div>
 <div class="col s3 m3 l3 center-align"></div>
 <div class="col s3 m3 l3 center-align"></div>
 <div class="col s3 m3 l3 center-align"></div>
@@ -150,4 +150,4 @@ Throughout a typical academic year, CompClub organizes various events for its me
 <div class="col s3 m3 l3 center-align"></div>
 <div class="col s3 m3 l3 center-align"></div>
 <div class="col s3 m3 l3 center-align"></div>
-</div>xs
+</div>
