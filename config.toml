@@ -8,6 +8,7 @@ theme = "hugo-type-theme"
 googleAnalytics = ""
 # Posts per page
 paginate = 10
+buildFuture = true
 
 
 [params]
