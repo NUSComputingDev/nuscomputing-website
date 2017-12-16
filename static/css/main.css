@@ -50,14 +50,36 @@ a.button:hover {
 
 .event-segment {
   background-color: #F5F5F5;
-  margin-bottom: 24px;
-  box-shadow: 1px 1px 5px #888888;
+  margin-bottom: 5%;
   padding: 8%;
+}
+
+.event-segment:hover {
+  background-color: #e0e0e0;
 }
 
 .event-container {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.modal-header {
+  width: 100%;
+  padding: 24px;
+}
+
+#close-icon {
+  color: rgba(38, 50, 56, 0.5);
+}
+
+#close-icon:hover {
+  color: rgba(38, 50, 56, 1);
+}
+
+#close-modal {
+  top: 12px;
+  right: 12px;
+  position: absolute;
 }
 
 nav {

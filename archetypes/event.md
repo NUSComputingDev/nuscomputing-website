@@ -6,6 +6,5 @@ image = ""
 title = ""
 type = "event"
 externalLink = "https://www.facebook.com/nuscomputing/"
-modal = ""
 
 +++
