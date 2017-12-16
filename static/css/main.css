@@ -102,3 +102,8 @@ nav {
 .has-rounded-images img {
   border-radius: 0px;
 }
+
+#post-content img {
+  display: block;
+  margin: 0 auto;
+}
