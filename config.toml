@@ -1,4 +1,4 @@
-baseURL = "https://nuscomputing.com/"
+baseURL = "https://nuscomputingdev.github.io/nuscomputing-test/"
 languageCode = "en-us"
 title = "NUS Students' Computing Club"
 theme = "hugo-type-theme"
